@@ -1,10 +1,10 @@
 # MGTCF
 The code of "MGTCF: Multi-Generator Tropical Cyclone Forecasting with Heterogeneous Meteorological Data" accepted by AAAI2023.
 
-In the process of sorting!
 ## Introduction
-Contribution:
 
+![***MGTCF_framework***](https://github.com/Zjut-MultimediaPlus/MGTCF/tree/main/image/framework.jpg)
+Contribution:
 1.  MGTCF can utilize heterogeneous meteorologic data efficiently, including the inherent attribute data of TC and the meteorological grid data.
 2. The Multi-generator and the GC-Net are used to tackle the prediction of undesired out-of-distribution samples and the insufficient learning ability of single-generator TC prediction methods. 
 3. Env-Net improves the performance of TC prediction by embedding the environment information, which has been traditionally overlooked but is very important. To our knowledge, this is the first attempt to build a module focused on environment in TC prediction.
@@ -19,7 +19,7 @@ When we use MMSTN to make a prediction of TC, we will generate k possible tenden
 
 As for the calculation of evaluation criteria, we choose the **best prediction** through these k possible tendencies (including every time points) as our final prediction.
 
-This is the source code of MMSTN.
+
 ## Requirements 
 * python 3.8.5
 * Pytorch 1.11.0

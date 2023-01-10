@@ -1,5 +1,6 @@
 # MGTCF
 The code of "MGTCF: Multi-Generator Tropical Cyclone Forecasting with Heterogeneous Meteorological Data" accepted by AAAI2023.
+This paper will be published in April 2023.
 
 ## Introduction
 

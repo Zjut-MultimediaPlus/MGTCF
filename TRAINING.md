@@ -9,7 +9,11 @@ Now you can train a new model by running the script:
 python train.py
 ```
 
-By default this will train a model on CMA best track dataset, periodically saving checkpoint files `checkpoint_with_model.pt` and `checkpoint_no_model.pt` to the current working directory. The training script has a number of command-line flags that you can use to configure the model architecture, hyperparameters, and input / output settings:
+By default this will train a model on CMA best track dataset and ERA5 data, periodically saving checkpoint files to the folder named `model_save`. The training script has a number of command-line flags that you can use to configure the model architecture, hyperparameters, and input / output settings:
+
+### Global Setting
+- `--gpu_num`: The id of the GPU that you want to use. Default is '1'.
+- `--dataset_name`: The id of the GPU that you want to use. Default is '1950_2019'.
 
 ### Optimization
 

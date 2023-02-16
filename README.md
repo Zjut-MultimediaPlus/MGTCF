@@ -49,7 +49,7 @@ python train.py
 python evaluate_model_ME.py --dset_type test2019
 ```
 ## Training new models
-Instructions for training new models can be [found here](https://github.com/Zjut-MultimediaPlus/MMSTN/blob/main/TRAINING.md).
+Instructions for training new models can be [found here](https://github.com/Zjut-MultimediaPlus/MGTCF/blob/main/TRAINING.md).
 
 ## The data we used
 We used two open access dataset: [the CMA Tropical Cyclone Best Track Dataset](https://tcdata.typhoon.org.cn/en/zjljsjj_sm.html) 

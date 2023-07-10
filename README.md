@@ -52,19 +52,19 @@ python evaluate_model_ME.py --dset_type test2019
 Instructions for training new models can be [found here](https://github.com/Zjut-MultimediaPlus/MGTCF/blob/main/TRAINING.md).
 
 ## The data we used
-We used two open access dataset: [the CMA Tropical Cyclone Best Track Dataset](https://tcdata.typhoon.org.cn/en/zjljsjj_sm.html) 
+We used two open-access dataset: [the CMA Tropical Cyclone Best Track Dataset](https://tcdata.typhoon.org.cn/en/zjljsjj_sm.html) 
 , [ERA5](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5) 
 and the results of [the CMO's tropical cyclone predictions](http://typhoon.nmc.cn/web.html).
 
-If you want to use these data, please contact us. We will sent these data to you.
+If you want to use these data, please contact us. We will send these data to you.
 
-If you are interesting in these data, you can click [the CMA Tropical Cyclone Best Track Dataset](https://tcdata.typhoon.org.cn/en/zjljsjj_sm.html), [ERA5](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5), and
+If you are interested in these data, you can click [the CMA Tropical Cyclone Best Track Dataset](https://tcdata.typhoon.org.cn/en/zjljsjj_sm.html), [ERA5](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5), and
 [the CMO's tropical cyclone data](http://typhoon.nmc.cn/web.html) to obtain more details. 
 
 
 
 ## Note
-Although MGTCF get a surprising performance, there are some challenges in the task of tropical cyclone forecasting. First, the performance of trajectory prediction in long-term is still worse than the performance of the official meteorological agencies. Second, due to the use of ERA5, which is reanalysis data, MGTCF can not predict TC in real time. It is a critical problem that determines whether our research can be implemented in industry. Therefore, the next step is to continue to improve the performance of forecasting and find a solution to make our method predict TC in real time.
+Although MGTCF gets a surprising performance, there are some challenges in the task of tropical cyclone forecasting. First, the performance of trajectory prediction in long term is still worse than the performance of the official meteorological agencies. Second, due to the use of ERA5, which is reanalysis data, MGTCF can not predict TC in real-time. It is a critical problem that determines whether our research can be implemented in industry. Therefore, the next step is to continue to improve the performance of forecasting and find a solution to make our method predict TC in real-time.
 
 Our codes were modified from the implementation of ["MMSTN: a Multi-Modal Spatial-Temporal Network for Tropical Cyclone Short-Term Prediction"](https://github.com/Zjut-MultimediaPlus/MMSTN). Please cite the two papers (MGTCF and MMSTN) when you use the codes.
 ## Citing MGTCF & MMSTN
@@ -72,8 +72,10 @@ Our codes were modified from the implementation of ["MMSTN: a Multi-Modal Spatia
 @inproceedings{MGTCF,
   title={MGTCF: Multi-Generator Tropical Cyclone Forecasting with Heterogeneous Meteorological Data},
   author={Huang, Cheng and Bai, Cong and Chan, Sixian and Zhang, Jinglin and Wu, YuQuan},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  number={CONF},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={4},
+  pages={5096--5104},
   year={2023}
 }
 ```

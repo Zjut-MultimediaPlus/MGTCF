@@ -2,9 +2,6 @@ import numpy as np
 import torch
 import torch.nn as nn
 from torch.distributions.categorical import Categorical
-# from mgtcf.Unet3D_test import Unet3D
-# from mgtcf.Unet3D_merge import Unet3D
-# from mgtcf.PredRNN import Net
 from mgtcf.Unet3D_merge_tiny import Unet3D
 from mgtcf.env_net import Env_net
 

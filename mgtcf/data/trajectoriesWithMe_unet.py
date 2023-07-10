@@ -299,14 +299,14 @@ class TrajectoryDataset(Dataset):
         year = tyid_dic['old'][0][2:6]
         tydate = tyid_dic['tydate']
 
-        env_root = '/home/hc/Desktop/hca6000/TYDataset/evn_data/norm'
+        env_root = r'G:\data\AAAI_data\env_data\norm'
         env_date = tyid_dic['new'][0]
         env_path = os.path.join(env_root,year,tyname,env_date+'.npy')
         env_data = np.load(env_path,allow_pickle=True).item()
 
 
 
-        modal_path = {'gph':'/home/hc/Desktop/hca6000/TYDataset/geopotential_500_year_centercrop',
+        modal_path = {'gph':r'G:\data\AAAI_data\geopotential_500_year_centercrop',
                       'mcc':'/home/hc/Desktop/hca6000/TYDataset/wind_year_MCC_centercrop',
                       '10v':'/home/hc/Desktop/hca6000/TYDataset/wind_year_V10_centercrop',
                       '10u':'/home/hc/Desktop/hca6000/TYDataset/wind_year_U10_centercrop',

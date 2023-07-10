@@ -15,9 +15,9 @@ from mgtcf.losses import displacement_error, final_displacement_error,toNE,traje
 from mgtcf.utils import relative_to_abs, get_dset_path,dic2cuda
 
 
-os.environ["CUDA_VISIBLE_DEVICES"] = '3'
+os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_path',default='model_save/725mgchooser_pipre5lr1e4_1950_2019_sst', type=str)
+parser.add_argument('--model_path',default='model_save/mgchooser_pipre5lr1e4_evn_envshare_noclip_trainall_relu_tripchkecl_gph', type=str)
 parser.add_argument('--num_samples', default=6, type=int)
 parser.add_argument('--dset_type', default='test', type=str)
 

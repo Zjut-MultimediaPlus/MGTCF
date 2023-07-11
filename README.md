@@ -37,7 +37,7 @@ As for the calculation of evaluation criteria, we choose the **best prediction**
 * CUDA 11.7
 
 ## Data Preparation
-First, you need to download all the data that we used in MGTCF by [Baidu Netdisk](https://pan.baidu.com/s/1qLEVymQ3ivvqAbgGBNkgaQ?pwd=rgwn ).
+First, you need to download all the data that we used in MGTCF by [Baidu Netdisk](https://pan.baidu.com/s/1qLEVymQ3ivvqAbgGBNkgaQ?pwd=rgwn ) and [Google Drive](https://drive.google.com/file/d/1AZhiGk-cTvcMdL9jerL25KmTzqD8Kab-/view?usp=sharing).
 
 After you complete the downloading, you will find there is a compressed file, which includes Data_1d (Folder name: **1950_2019**), Data_2d (Folder name: **geopotential_500_year_centercrop**), Env-Data (Folder name: **env_data**), and a documentary (file name: **README.pdf**) including some details about these data.
 

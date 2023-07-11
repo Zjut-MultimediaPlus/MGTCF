@@ -63,7 +63,8 @@ We used two open-access dataset: [the CMA Tropical Cyclone Best Track Dataset](h
 , [ERA5](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5) 
 and the results of [the CMO's tropical cyclone predictions](http://typhoon.nmc.cn/web.html).
 
-If you want to use these data, please contact us. We will send these data to you.
+If you want to use these data, we upload them on [Baidu Netdisk](https://pan.baidu.com/s/1qLEVymQ3ivvqAbgGBNkgaQ?pwd=rgwn ) and [Google Drive](https://drive.google.com/file/d/1AZhiGk-cTvcMdL9jerL25KmTzqD8Kab-/view?usp=sharing).
+.
 
 If you are interested in these data, you can click [the CMA Tropical Cyclone Best Track Dataset](https://tcdata.typhoon.org.cn/en/zjljsjj_sm.html), [ERA5](https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5), and
 [the CMO's tropical cyclone data](http://typhoon.nmc.cn/web.html) to obtain more details. 
